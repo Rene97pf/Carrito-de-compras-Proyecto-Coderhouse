@@ -1,0 +1,27 @@
+$fuente: "open sans", sans-serif;
+$fuente_navbar: "Montserrat", sans-serif;
+$bg_black: black;
+$font_color: black;
+
+@mixin FontStyle {
+  font-family: $fuente_navbar;
+  color: $font_color;
+}
+
+.carousel-inner img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.carousel-inner {
+  width: 80%;
+  height: max-content;
+  margin: auto;
+}
+
+.carousel {
+  background-color: #020202;
+}

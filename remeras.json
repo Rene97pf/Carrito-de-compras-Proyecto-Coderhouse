@@ -1,0 +1,27 @@
+[
+{
+    "title": "RedCity Remera",
+    "url": "imagenes/city.jpg",
+    "precio": "$1500",
+    "stock": "23"
+  },
+  {
+    "title": "Petalos Remera",
+    "url": "imagenes/petalos1.jpeg",
+    "precio": "$1500",
+    "stock": "15"
+  },
+  {
+    "title": "Spacer Buzo",
+    "url": "imagenes/space.jpg",
+    "precio": "$3500",
+    "stock": "30"
+  },
+  {
+    "title": "Tokyo Buzo",
+    "url": "imagenes/tokyo.jpg",
+    "precio": "$3500",
+    "stock": "9"
+  }
+
+]

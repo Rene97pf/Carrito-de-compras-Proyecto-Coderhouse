@@ -1,0 +1,42 @@
+.head {
+  opacity: 0.9;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.nav__logo {
+  width: 100%;
+  display: block;
+}
+
+.nav-link {
+  color: #f0f0f0 !important;
+  font-size: 18px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.fa-shopping-cart {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 10%;
+}
+/*# sourceMappingURL=navbar.css.map */

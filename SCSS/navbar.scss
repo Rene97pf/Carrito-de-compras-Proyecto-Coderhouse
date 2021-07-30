@@ -1,0 +1,37 @@
+.head {
+  opacity: 0.9;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  width: 100%;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.nav__logo {
+  width: 100%;
+  display: block;
+}
+
+.nav-link {
+  color: rgb(240, 240, 240) !important;
+  font-size: 18px;
+  transition: 0.1s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  transition-duration: 0.7s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.fa-shopping-cart {
+  justify-content: left;
+  width: 10%;
+}
+

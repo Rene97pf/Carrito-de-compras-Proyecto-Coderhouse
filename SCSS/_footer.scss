@@ -1,0 +1,140 @@
+$fuente: "open sans", sans-serif;
+$fuente_navbar: "Montserrat", sans-serif;
+$bg_black: black;
+$font_color: black;
+
+@mixin FontStyle {
+  font-family: $fuente_navbar;
+  color: $font_color;
+}
+.footer-dark {
+  padding: 50px 0;
+  color: #ffffff;
+  background-color: $bg_black;
+
+  h3 {
+    margin-top: 0;
+    font-family: $fuente_navbar;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    color: #c4c2c2;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+  color: green;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.5;
+  font-size: 13px;
+  margin-bottom: 0;
+  font-family: "montserrat";
+}
+
+.footer__pagos {
+  margin-left: 25%;
+}
+
+.footer__pagos--img {
+  margin-left: 44%;
+}
+
+@media (max-width: 700px) {
+  .footer__pagos {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer__pagos--img {
+    margin-left: 0%;
+  }
+}
+
+.Detalles__estilo {
+  @include FontStyle();
+}
+
+.Detalles__estilo--texto {
+  text-decoration: underline black;
+  font-size: 15px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.item.social:hover {
+  transition-duration: 1s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}

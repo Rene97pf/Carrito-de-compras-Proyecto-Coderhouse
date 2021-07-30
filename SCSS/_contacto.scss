@@ -1,0 +1,27 @@
+$fuente: "open sans", sans-serif;
+$fuente_navbar: "Montserrat", sans-serif;
+$bg_black: black;
+$font_color: black;
+
+@mixin FontStyle {
+  font-family: $fuente_navbar;
+  color: $font_color;
+}
+
+form {
+  width: 100%;
+  margin-left: 3%;
+}
+
+.Contacto__head {
+  @include FontStyle();
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 5.5%;
+  
+}
+
+.Contacto__datos {
+  @include FontStyle();
+  padding-left: 6%;
+}
